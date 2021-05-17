@@ -1,0 +1,94 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F3"
+    android:padding="8dp">
+
+    <TextView
+        android:text="Step 1: Property Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <EditText
+        android:id="@+id/edit_text_property_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background = "#FFF"
+        android:layout_margin="5dp"
+
+        android:hint="Address" />
+
+    <EditText
+        android:background = "#FFF"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_text_property_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City" />
+
+    <EditText
+        android:background = "#FFF"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_text_property_state_province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State/Province" />
+
+    <EditText
+        android:background = "#FFF"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_text_zip_postal_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zip/Postal code" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_add_tenant"
+        android:layout_width="match_parent"
+        android:background="@drawable/draw_res_file"
+
+        android:layout_height="wrap_content"
+        android:text="Save and add tenant" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_see_properties"
+        android:layout_width="match_parent"
+        android:background="@drawable/draw_res_file"
+
+        android:layout_height="wrap_content"
+        android:text="See properties" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_pic_from_camera_properties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/draw_res_file"
+
+        android:text="Take picture property from camera" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_pic_from_gallery_properties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/draw_res_file"
+
+        android:text="Choose picture from gallery" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_pic_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/draw_res_file"
+
+        android:text="Upload token image" />
+
+
+
+</LinearLayout>

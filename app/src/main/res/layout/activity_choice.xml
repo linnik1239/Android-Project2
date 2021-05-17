@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:padding="16dp">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_choice_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_margin="15dp"
+
+        android:background="@drawable/draw_res_file"
+
+
+        android:text="Register" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_choice_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_margin="15dp"
+
+        android:background="@drawable/draw_res_file"
+
+        android:text="Login" />
+</LinearLayout>

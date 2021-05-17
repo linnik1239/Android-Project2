@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:text="Task info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Priority" />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Summary" />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Property" />
+
+    <EditText
+
+        android:id="@+id/edit_text_to_do_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Due date" />
+
+    <Button
+        android:id="@+id/button_pic_from_camera_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take picture property from camera" />
+    <Button
+        android:id="@+id/button_pic_from_gallery_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose picture from gallery" />
+
+
+
+    <TextView
+        android:text="Cost and vendor info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_assign_to_vendor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assign to vendor" />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_estimated_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estimated cost" />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_actual_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Actual cost" />
+
+
+    <TextView
+        android:text="Status info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_to_do_status_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pending"
+        android:hint="Status info" />
+
+
+    <Button
+        android:id="@+id/button_pic_save_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/button_pic_read_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read to do " />
+
+
+
+</LinearLayout>
+
+</ScrollView>
